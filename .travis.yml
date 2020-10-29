@@ -5,6 +5,7 @@ language: python
 python:
   - "2.7"
   - "3.5"
+  - sudo apt-get install libssl-dev
 
 before_install:
   - ./download_etcd.sh 2.3.7
